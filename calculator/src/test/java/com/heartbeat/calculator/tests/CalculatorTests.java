@@ -23,15 +23,5 @@ public class CalculatorTests {
 	void subtractionTest() {
 		assertEquals(1, calculatorService.subtraction(4, 3));
 	}
-	
-	@Test
-	void multiplicationTest() {
-		assertEquals(21, calculatorService.multiplication(7, 3));
-	}
-	
-	@Test
-	void divisionTest() {
-		assertEquals(3, calculatorService.division(9, 3));
-	}
 
 }

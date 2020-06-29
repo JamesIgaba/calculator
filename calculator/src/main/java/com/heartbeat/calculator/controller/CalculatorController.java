@@ -25,13 +25,4 @@ public class CalculatorController {
 		return calcService.subtraction(x, y); 
 	}
 	
-	@PostMapping(value ="/multiply/{x}/{y}")
-	public int multiply(@PathVariable int x, @PathVariable int y) {
-		return calcService.multiplication(x, y); 
-	}
-	
-	@PostMapping(value ="/divide/{x}/{y}")
-	public double divide(@PathVariable int x, @PathVariable int y) {
-		return calcService.division(x, y); 
-	}
 }
